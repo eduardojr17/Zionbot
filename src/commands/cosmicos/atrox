@@ -1,0 +1,66 @@
+
+//importa a classe Command
+const Command = require('../../structures/Command')
+
+const {MessageEmbed}  = require('discord.js')
+
+module.exports = class extends Command {
+    constructor(client) {
+        super(client, {
+            name: 'zatrox', // nome do comando slash
+            description: 'Infomações sobre Atrox', // Descrição do comando slash
+        })
+    }
+
+ 
+    //função do que acontece quando o evento é chamado
+    run = (interaction) => {
+
+       const exampleEmbed = new MessageEmbed()
+        .setColor('RANDOM')
+        
+        .setAuthor('Cosmico', 'https://cdn.discordapp.com/attachments/869282294639231008/869282337790230558/badge_stardust-small_v1.png')
+        
+        .setTitle('Orcatti')
+        .setDescription('*Apelidado de "O Doutor Cósmico", Atrox cruzou o portal para o universo de Monster Legends para trazer a cura para inúmeras doenças não detectadas, mas ele também nos trouxe um aviso: A poeira estelar Míticica, se manuseada incorretamente, pode causar novas doenças, algumas mortais. Felizmente, Atrox está aqui para ajudar os monstros!* \n ')
+        
+        //.addField('\u200b', '\u200b')
+         
+        .addFields(
+            { name: '\u200B', value: '\u200B' },
+            { name: 'Caracteríticas', value: 'R0:Imune a Tortura \n R1: Resistente\n R3:Precisão(ED)', inline: true},
+            { name: 'Relíquias', value: 'Máscara \n Bastão', inline: true},
+            { name: 'Estatíticas', value: 'Poder: 17600 \n Vida: 204334 \n Velocidade: 10064', inline: true}
+        )
+
+        .addField('\u200b', '\u200b')
+        .addFields(
+            { name: 'ATAQUES', value: '\u200B'},
+            { name: 'Casaco de Sebo', value: 'Remove todas as torturas de um aliado' },
+
+            { name: 'Bengala de pinho', value: 'Causa dano de magia baixo a um inimigo. Aplica atordoamento a um inimigo. Requer recarga' },
+
+            { name: 'Bengala de Sebo', value: 'Aplica atordoamento a um inimigo. Remove as torturas de um inimigo. Requer recarga' },
+
+            { name: 'Sopro de Miasma', value: 'Causa dano de magia moderado a um inimigo. Aplica uma tortura aleatória a um inimigo. Requer recarga' },
+
+            { name: 'Solte o Miasma', value: 'Aplica uma tortura aleatória a todos os aliados. Aplica uma tortura aleatória a todos os inimigos. Requer recarga.' },
+
+            { name: 'Bengala de Carvalho', value: 'Aplica atordoamento duas vezes a um inimigo. Requer recarga' },
+
+            { name: 'Hortelã e rosas', value: 'Causa dano de magia moderado a um inimigo. Remove todas as torturas de todos os aliados. Requer recarga.' },
+
+            { name: 'Bengala e Bico', value: 'Causa baixo dano de magia a todos os inimigos. Aplica atordoamento duas vezes a todos os inimigos. Requer recarga.' },
+
+            { name: 'Effluvium (Especial)', value: 'Remove os efeitos positivos de todos os inimigos. Aplica duas torturas aleatórias a todos os inimigos. Aplica mega atordoamento a todos os inimigos.' },
+        )
+
+        .setImage('https://static.wikia.nocookie.net/monsterlegends/images/c/c3/Atrox_2.png/revision/latest/scale-to-width-down/250?cb=20200821081835')
+        .setTimestamp()
+        .setFooter('Passe Grátis');
+        
+
+        interaction.reply({ embeds: [exampleEmbed] });
+
+    }
+}
