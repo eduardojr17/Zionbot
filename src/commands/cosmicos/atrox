@@ -21,7 +21,7 @@ module.exports = class extends Command {
         
         .setAuthor('Cosmico', 'https://cdn.discordapp.com/attachments/869282294639231008/869282337790230558/badge_stardust-small_v1.png')
         
-        .setTitle('Orcatti')
+        .setTitle('Atrox')
         .setDescription('*Apelidado de "O Doutor Cósmico", Atrox cruzou o portal para o universo de Monster Legends para trazer a cura para inúmeras doenças não detectadas, mas ele também nos trouxe um aviso: A poeira estelar Míticica, se manuseada incorretamente, pode causar novas doenças, algumas mortais. Felizmente, Atrox está aqui para ajudar os monstros!* \n ')
         
         //.addField('\u200b', '\u200b')
@@ -57,7 +57,7 @@ module.exports = class extends Command {
 
         .setImage('https://static.wikia.nocookie.net/monsterlegends/images/c/c3/Atrox_2.png/revision/latest/scale-to-width-down/250?cb=20200821081835')
         .setTimestamp()
-        .setFooter('Passe Grátis');
+        .setFooter('Passe Gratuito');
         
 
         interaction.reply({ embeds: [exampleEmbed] });
