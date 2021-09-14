@@ -29,8 +29,8 @@ module.exports = class extends Command {
         .addFields(
             { name: '\u200B', value: '\u200B' },
             { name: 'Caracteríticas', value: 'R0:Resistente \n R1: Imune a Congelar\n R3:Provocação(ED)', inline: true},
-            { name: 'Relíquias', value: 'Panela \n Vasilha', inline: true},
-            { name: 'Estatíticas', value: 'Poder: 000000 \n Vida: 00000 \n Velocidade: 000000', inline: true}
+            { name: 'Relíquias', value: 'Armadura \n Armadilha', inline: true},
+            { name: 'Estatísticas', value: 'Poder: 24256 \n Vida: 335594 \n Velocidade: 12224', inline: true}
         )
 
         .addField('\u200b', '\u200b')
@@ -53,7 +53,7 @@ module.exports = class extends Command {
             { name: 'No More Warm Up (Especial)', value: 'Remove os efeitos positivos de status de todos os inimigos. Desabilita característica em todos os inimigos. Causa dano pesado de Água a todos os inimigos' },
         )
 
-        .setImage('https://static.wikia.nocookie.net/monster-legends-competitive/images/e/eb/Orcatti_Leak.jpg/revision/latest?cb=20210907163819&path-prefix=fr')
+        .setImage('https://static.wikia.nocookie.net/monster-legends-competitive/images/a/aa/Orcatti.png/revision/latest/scale-to-width-down/250?cb=20210914153136&path-prefix=fr')
         .setTimestamp()
         .setFooter('Maratona');
         
