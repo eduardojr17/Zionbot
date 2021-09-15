@@ -57,7 +57,7 @@ module.exports = class extends Command {
 
         .setImage('https://static.wikia.nocookie.net/monster-legends-competitive/images/e/ef/Lucky_Clint_Leak.jpg/revision/latest/scale-to-width-down/346?cb=20210907150026&path-prefix=fr')
         .setTimestamp()
-        .setFooter('PvP');
+        .setFooter('Batalhas Multijogador (PvP)');
         
 
         interaction.reply({ embeds: [exampleEmbed] });
