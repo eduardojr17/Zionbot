@@ -55,7 +55,7 @@ module.exports = class extends Command {
             { name: 'Confronto na Casa Diabo (especial)', value: 'Causa dano pesado de magia a todos os inimigos. Aplica Cegueira Total, Vunerável e Sangramento a todos os inimigos.' },
         )
 
-        .setImage('https://static.wikia.nocookie.net/monster-legends-competitive/images/a/aa/Orcatti.png/revision/latest/scale-to-width-down/250?cb=20210914153136&path-prefix=fr')
+        .setImage('https://static.wikia.nocookie.net/monster-legends-competitive/images/e/ef/Lucky_Clint_Leak.jpg/revision/latest/scale-to-width-down/346?cb=20210907150026&path-prefix=fr')
         .setTimestamp()
         .setFooter('PvP');
         
