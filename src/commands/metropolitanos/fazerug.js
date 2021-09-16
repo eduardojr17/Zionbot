@@ -27,8 +27,8 @@ module.exports = class extends Command {
          
         .addFields(
             { name: '\u200B', value: '\u200B' },
-            { name: 'Caracteríticas', value: 'R0:Artefato \n R1:Harmonizado -\n R3:Energizado'},
-            { name: 'Relíquias', value: 'Armadura \n Armadura'},
+            { name: 'Caracteríticas', value: 'R0:Artefato \n R1:Harmonizado -\n R3:Energizado', inline: true},
+            { name: 'Relíquias', value: 'Armadura \n Armadura' , inline: true},
             { name: 'Estatíticas', value: 'Poder:23.584 - \n Vida: 331.534 - \n Velocidade:12.224 -', inline: true}
         )
 
