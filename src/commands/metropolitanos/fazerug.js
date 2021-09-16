@@ -18,7 +18,7 @@ module.exports = class extends Command {
        const exampleEmbed = new MessageEmbed()
         .setColor('RANDOM')
         
-        .setAuthor('Geração', 'https://cdn.discordapp.com/attachments/869282294639231008/869282337790230558/badge_stardust-small_v1.png')
+        .setAuthor('Geração', 'https://cdn.discordapp.com/attachments/869282294639231008/869282336221565010/badge_metropolitan-small_v1.png')
         
         .setTitle('Faze Rug')
         .setDescription('*FaZe Rug estava dirigindo seu carro esporte por Monstown quando ele pulou o semáforo. Infelizmente para ele, Malfeitor estava tentando atravessar a estrada e ele não aceitou bem o desrespeito de FaZe Rug. O vilão o amaldiçoou e o fundiu com seu carro , então ele se tornou um robô enorme! Ele pode não ser capaz de dirigir mais, mas, como um robô, ele é incomparável!* \n ')
