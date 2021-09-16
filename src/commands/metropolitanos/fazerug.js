@@ -20,16 +20,19 @@ module.exports = class extends Command {
         
         .setAuthor('Geração', 'https://cdn.discordapp.com/attachments/869282294639231008/869282337790230558/badge_stardust-small_v1.png')
         
-        .setTitle('Monstro')
+        .setTitle('Faze Rug')
         .setDescription('*FaZe Rug estava dirigindo seu carro esporte por Monstown quando ele pulou o semáforo. Infelizmente para ele, Malfeitor estava tentando atravessar a estrada e ele não aceitou bem o desrespeito de FaZe Rug. O vilão o amaldiçoou e o fundiu com seu carro , então ele se tornou um robô enorme! Ele pode não ser capaz de dirigir mais, mas, como um robô, ele é incomparável!* \n ')
         
         //.addField('\u200b', '\u200b')
          
         .addFields(
             { name: '\u200B', value: '\u200B' },
-            { name: 'Caracteríticas', value: 'R0:Artefato \n R1:Harmonizado -\n R3:Energizado', inline: true},
+            //Caracteriticas
+            { name: 'Caracteríticas', value: 'R0:Artefato \n R1:Harmonizado \n R3:Energizado', inline: true},
+            //Relíquias
             { name: 'Relíquias', value: 'Armadura \n Armadura' , inline: true},
-            { name: 'Estatíticas', value: 'Poder:23.584 - \n Vida: 331.534 - \n Velocidade:12.224 -', inline: true}
+            //Estatisticas do monstro no nível 5
+            { name: 'Estatíticas', value: 'Poder:23.584 \n Vida: 331.534 \n Velocidade:12.224', inline: true}
         )
 
         .addField('\u200b', '\u200b')
