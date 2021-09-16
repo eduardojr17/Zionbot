@@ -57,7 +57,7 @@ module.exports = class extends Command {
 
         .setImage('https://static.wikia.nocookie.net/monster-legends-competitive/images/e/e4/Gahy_Zuhl.png/revision/latest/scale-to-width-down/250?cb=20210830134929&path-prefix=fr')
         .setTimestamp()
-        .setFooter('Procriação/Dias de Missão');
+        .setFooter('Procriação');
         
 
         interaction.reply({ embeds: [exampleEmbed] });

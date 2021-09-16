@@ -28,7 +28,7 @@ module.exports = class extends Command {
          
         .addFields(
             { name: '\u200B', value: '\u200B' },
-            { name: 'Caracteríticas', value: 'R0: Imunidade a cegueira (35%) \n R1: Super harmonizado\n R3:Regeneração de Resistência(ED)', inline: true},
+            { name: 'Caracteríticas', value: 'R0: Imunidade a cegueira \n R1: Super harmonizado\n R3:Regeneração de Resistência(ED)', inline: true},
             { name: 'Relíquias', value: 'Espada \n Máscara', inline: true},
             { name: 'Estatísticas', value: 'Poder: 24752 \n Vida: 311236 \n Velocidade: 12704', inline: true}
         )
