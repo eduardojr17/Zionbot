@@ -30,7 +30,7 @@ module.exports = class extends Command {
             { name: '\u200B', value: '\u200B' },
             { name: 'Caracteríticas', value: 'R0: Antecipação \n R1: Imune aCegueira\n R3:Visão Real(ED)', inline: true},
             { name: 'Relíquias', value: '- \n -', inline: true},
-            { name: 'Estatísticas', value: 'Poder: - \n Vida: - \n Velocidade: -', inline: true}
+            { name: 'Estatísticas', value: 'Poder: 24.464 \n Vida: 316.648 \n Velocidade: 12.528', inline: true}
         )
 
         .addField('\u200b', '\u200b')
@@ -55,7 +55,7 @@ module.exports = class extends Command {
             { name: 'Confronto na Casa Diabo (especial)', value: 'Causa dano pesado de magia a todos os inimigos. Aplica Cegueira Total, Vunerável e Sangramento a todos os inimigos.' },
         )
 
-        .setImage('https://static.wikia.nocookie.net/monster-legends-competitive/images/e/ef/Lucky_Clint_Leak.jpg/revision/latest/scale-to-width-down/346?cb=20210907150026&path-prefix=fr')
+        .setImage('https://static.wikia.nocookie.net/monsterlegends/images/d/d8/Lucky_Clint_2.png/revision/latest/scale-to-width-down/250?cb=20210915073438')
         .setTimestamp()
         .setFooter('Batalhas Multijogador (PvP)');
         
