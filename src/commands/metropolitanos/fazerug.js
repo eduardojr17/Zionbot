@@ -18,9 +18,11 @@ module.exports = class extends Command {
        const exampleEmbed = new MessageEmbed()
         .setColor('RANDOM')
         
-        .setAuthor('Geração', 'https://cdn.discordapp.com/attachments/869282294639231008/869282336221565010/badge_metropolitan-small_v1.png')
+        .setAuthor('Metropolitano', 'https://cdn.discordapp.com/attachments/869282294639231008/869282336221565010/badge_metropolitan-small_v1.png')
         
+        //Nome do Monstro
         .setTitle('Faze Rug')
+        //História do Monstro
         .setDescription('*FaZe Rug estava dirigindo seu carro esporte por Monstown quando ele pulou o semáforo. Infelizmente para ele, Malfeitor estava tentando atravessar a estrada e ele não aceitou bem o desrespeito de FaZe Rug. O vilão o amaldiçoou e o fundiu com seu carro , então ele se tornou um robô enorme! Ele pode não ser capaz de dirigir mais, mas, como um robô, ele é incomparável!* \n ')
         
         //.addField('\u200b', '\u200b')
@@ -58,9 +60,10 @@ module.exports = class extends Command {
             { name: 'INACREDITÁVEL (Especial)', value: 'Causa dano de Fogo imenso a todos os inimigos. Aplica tontura a todos os inimigos. Aplica Mega Atordoamento a todos os inimigos.' },
 
         )
-
+        //Imagem do monstro
         .setImage('https://static.wikia.nocookie.net/monsterlegends/images/3/30/FaZe_Rug_2.png/revision/latest/scale-to-width-down/250?cb=20210915072354')
         .setTimestamp()
+        //Onde o mosntro veio
         .setFooter('Procriação/Fraternidade');
         
 
