@@ -34,7 +34,7 @@ module.exports = class extends Command {
             //Relíquias
             { name: 'Relíquias', value: 'Armadura \n Armadura' , inline: true},
             //Estatisticas do monstro no nível 5
-            { name: 'Estatíticas', value: 'Poder:23.584 \n Vida: 331.534 \n Velocidade:12.224', inline: true}
+            { name: 'Estatíticas(R5)', value: 'Poder:23.584 \n Vida: 331.534 \n Velocidade:12.224', inline: true}
         )
 
         .addField('\u200b', '\u200b')

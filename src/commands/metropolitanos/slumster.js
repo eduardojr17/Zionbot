@@ -22,7 +22,7 @@ module.exports = class extends Command {
         .setAuthor('Metropolitano', 'https://cdn.discordapp.com/attachments/869282294639231008/869282336221565010/badge_metropolitan-small_v1.png')
         
         .setTitle('Slumster')
-        .setDescription('*Em breve* \n ')
+        .setDescription('*Conheça o colaborador mais secreto de Don Canine. Ninguém na tripulação do prefeito sabe sobre sua existência. Slumster está no centro de uma rede de monstros discretos que fazem apenas duas coisas: ouvem e sussurram. Graças a ele, Don Canine é capaz de impedir protestos antes que aconteçam ou antecipar-se a possíveis traições vindas de dentro de sua tripulação.* \n ')
         
         //.addField('\u200b', '\u200b')
          
@@ -30,7 +30,7 @@ module.exports = class extends Command {
             { name: '\u200B', value: '\u200B' },
             { name: 'Caracteríticas', value: 'R0: Evasão de Área \n R1: Imune ao Controle\n R3:Regeneração de Resistência(ED-Área)', inline: true},
             { name: 'Relíquias', value: '- \n -', inline: true},
-            { name: 'Estatísticas', value: 'Poder: - \n Vida: - \n Velocidade: -', inline: true}
+            { name: 'Estatísticas(R5)', value: 'Poder: 22880 \n Vida: 308530 \n Velocidade: 13376', inline: true}
         )
 
         .addField('\u200b', '\u200b')
@@ -56,7 +56,7 @@ module.exports = class extends Command {
 
         )
 
-        .setImage('https://cdn.discordapp.com/attachments/610845535296946186/888033321098035270/MlFrancophone1_Capture0_2021-09-16_14-06-39.png')
+        .setImage('https://static.wikia.nocookie.net/monster-legends-competitive/images/e/ec/Slumster.png/revision/latest/scale-to-width-down/250?cb=20210920153649&path-prefix=fr')
         .setTimestamp()
         .setFooter('Labirinto');
         
