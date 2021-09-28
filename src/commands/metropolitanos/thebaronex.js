@@ -23,7 +23,7 @@ module.exports = class extends Command {
         //Nome do Monstro
         .setTitle('The Baronex')
         //História do Monstro
-        .setDescription('*The Baronex sempre foi uma governante tirânica que abusava dos poucos recursos da terra Devastada. Agora, no entanto, ela cruzou a linha permitindo que Don Canine deixasse todo o lixo de Monstown em sua região. Ela fez isso por mais poder e um novo nome . Como The BaroneX, ela será capaz de continuar governando, apesar de seus vários opositores * \n ')
+        .setDescription('*The Baronex sempre foi uma governante tirânica que abusava dos poucos recursos da terra Devastada. Agora, no entanto, ela cruzou a linha permitindo que Don Canine deixasse todo o lixo de Monstown em sua região. Ela fez isso por mais poder e um novo nome. Como The BaroneX, ela será capaz de continuar governando, apesar de seus vários opositores* \n ')
         
         //.addField('\u200b', '\u200b')
          
