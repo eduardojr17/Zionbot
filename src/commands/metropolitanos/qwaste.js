@@ -29,7 +29,7 @@ module.exports = class extends Command {
         .addFields(
             { name: '\u200B', value: '\u200B' },
             { name: 'Caracteríticas', value: 'R0: Imune ao controle \n R1: Resistente (20%)\n R3: Nanovirus (ED)', inline: true},
-            { name: 'Relíquias', value: 'Armadilha \n Armadilha', inline: true},
+            { name: 'Relíquias', value: 'Essência \n Bastão', inline: true},
             { name: 'Estatísticas(R5)', value: 'Poder: 23088 \n Vida: 322062 \n Velocidade: 13280', inline: true}
         )
 
