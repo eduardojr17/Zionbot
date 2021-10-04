@@ -7,7 +7,7 @@ module.exports = class extends Command {
     constructor(client) {
         super(client, {
             name: 'zaloedeath', // nome do comando slash
-            description: 'Infomações sobre Aloe Death', // Descrição do comando slash
+            description: 'Informações sobre Aloe Death', // Descrição do comando slash
         })
     }
 
