@@ -56,7 +56,7 @@ module.exports = class extends Command {
 
         .setImage('https://static.wikia.nocookie.net/monsterlegends/images/9/92/Dork_2.png/revision/latest/scale-to-width-down/250?cb=20211001110814')
         .setTimestamp()
-        .setFooter('Caça Recompensa');
+        .setFooter('Caça a Recompensa (Pago)');
         
 
         interaction.reply({ embeds: [exampleEmbed] });

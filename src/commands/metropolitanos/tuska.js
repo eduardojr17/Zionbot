@@ -57,7 +57,7 @@ module.exports = class extends Command {
 
         .setImage('https://static.wikia.nocookie.net/monsterlegends/images/9/9e/Tuska_2.png/revision/latest?cb=20211001110812')
         .setTimestamp()
-        .setFooter('Caça grátis');
+        .setFooter('Caça a Recompensa (Grátis)');
         
 
         interaction.reply({ embeds: [exampleEmbed] });
