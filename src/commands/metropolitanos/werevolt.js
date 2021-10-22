@@ -51,8 +51,7 @@ module.exports = class extends Command {
 
             { name: 'Lanche de pescoço', value: 'Causa dano físico pesado a um inimigo. Rouba a vida do alvo. Requer  recarga' },
 
-            { name: 'Frenesi cortante(Especial)', value: 'Causa dano de trovão imenso a um inimigo. Aplica  cegueira total e sangramento a todos os inimigos. 
-' },
+            { name: 'Frenesi cortante(Especial)', value: 'Causa dano de trovão imenso a um inimigo. Aplica  cegueira total e sangramento a todos os inimigos.' },
         )
 
         .setImage('https://static.wikia.nocookie.net/monsterlegends/images/4/4b/Werevolt_2.png/revision/latest/scale-to-width-down/250?cb=20211013162712')

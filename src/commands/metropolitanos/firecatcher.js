@@ -6,8 +6,8 @@ const {MessageEmbed}  = require('discord.js')
 module.exports = class extends Command {
     constructor(client) {
         super(client, {
-            name: 'Zfirecatcher', // nome do comando slash
-            description: 'Infomações sobre Fircather', // Descrição do comando slash
+            name: 'zfirecatcher', // nome do comando slash
+            description: 'Infomações sobre Firecatcher', // Descrição do comando slash
         })
     }
 
@@ -39,23 +39,22 @@ module.exports = class extends Command {
 
             { name: 'Conhecimento Adquirido', value: 'Causa baixo dano de Fogo a todos os inimigos. Aplica fraqueza a luz a todos os inimigos. Requer recarga' },
 
-            { name: Teste de sorte', value: 'Causa dano de luz moderado a um inimigo. Aplica fraqueza de luz a um inimigo. Remove todos os efeitos negativos de todos os aliados. Requer recarga' },
+            { name: 'Teste de sorte', value: 'Causa dano de luz moderado a um inimigo. Aplica fraqueza de luz a um inimigo. Remove todos os efeitos negativos de todos os aliados. Requer recarga' },
 
             { name: 'Marca Brilhante', value: 'Aplica um Efeito de Tortura aleatório a um inimigo. Aplica um efeito aleatório de tortura a um inimigo. Requer recarga' },
 
             { name: 'Pegue isso', value: 'Causa dano de luz baixo a um inimigo. Aplica um efeito aleatório  positivo a si mesmo.' },
 
-            { name: 'O que vem por ai...', value: 'Causa dano moderado de Fogo a um inimigo. Remove efeitos positivos de todos os inimigos. Aplica Fraqueza de Fogo a todos os inimigos. Requer recarga"},
+            { name: 'O que vem por ai...', value: 'Causa dano moderado de Fogo a um inimigo. Remove efeitos positivos de todos os inimigos. Aplica Fraqueza de Fogo a todos os inimigos. Requer recarga' },
 
             { name: 'Pode Verificar', value: 'Causa baixo dano de Fogo a um inimigo. Aplica um efeito negativo aleatório a um inimigo.' },
 
             { name: 'Vem aí', value: 'Causa dano moderado de Fogo a todos os inimigos. Aplica uma Fraqueza Elemental aleatória a todos os inimigos. Aplica um efeito aleatório de tortura a todos os inimigos. Requer recarga' },
 
-            { name: 'Eu fiquei bem! (Especial)', value: 'Remove os efeitos positivos de todos os inimigos. Desabilita  Caracteristica de todos os inimigos. Causa dano pesado de Fogo a todos os inimigos. Aplica imunidade à tortura a todos os aliados. 
-' },
+            { name: 'Eu fiquei bem! (Especial)', value: 'Remove os efeitos positivos de todos os inimigos. Desabilita  Caracteristica de todos os inimigos. Causa dano pesado de Fogo a todos os inimigos. Aplica imunidade à tortura a todos os aliados' },
         )
 
-        .setImage('https://static.wikia.nocookie.net/monsterlegends/images/c/c5/Q-3R1ON_2.png/revision/latest/scale-to-width-down/250?cb=20210824153013')
+        .setImage('https://static.wikia.nocookie.net/monsterlegends/images/e/e1/Firecatcher_2.png/revision/latest/scale-to-width-down/250?cb=20211020092709')
         .setTimestamp()
         .setFooter('Labirinto');
         
