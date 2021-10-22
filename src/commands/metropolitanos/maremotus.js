@@ -54,7 +54,7 @@ module.exports = class extends Command {
             { name: 'Recife da Morte (Especial)', value: 'Causa dano escuro muito pesado a todos os inimigos. Aplica-se Afogado a todos os inimigos. Aplica MegaStun a todos os inimigos. Aplica Congelar a todos os inimigos.' },
         )
 
-        .setImage('https://https://static.wikia.nocookie.net/monsterlegends/images/a/a5/Maremotus_2.png/revision/latest/scale-to-width-down/250?cb=20211020150003')
+        .setImage('https://static.wikia.nocookie.net/monsterlegends/images/a/a5/Maremotus_2.png/revision/latest/scale-to-width-down/250?cb=20211020150003')
         .setTimestamp()
         .setFooter('Ilha progressiva');
         
