@@ -21,8 +21,8 @@ module.exports = class extends Command {
         
         .setAuthor('Metropolitano', 'https://cdn.discordapp.com/attachments/869282294639231008/869282336221565010/badge_metropolitan-small_v1.png')
         
-        .setTitle('TheFrustator')
-        .setDescription('*Malairion esnobou O Frutotor em um teste para sua equipe de Supervilões, mas quando chegou em casa, ele descobriu que cada sarjeta estava entupida de frutas podres. Havia vermes por toda parte. Ele percebeu que um ato de vingança tão malvado só poderia vir de um verdadeiro supervilão, então ele ligou para o Frutastor e lhe ofereceu um contrato.* \n ')
+        .setTitle('TheFrutastor')
+        .setDescription('*Malairion esnobou O Frutastor em um teste para sua equipe de Supervilões, mas quando chegou em casa, ele descobriu que cada sarjeta estava entupida de frutas podres. Havia vermes por toda parte. Ele percebeu que um ato de vingança tão malvado só poderia vir de um verdadeiro supervilão, então ele ligou para o Frutastor e lhe ofereceu um contrato.* \n ')
         
         //.addField('\u200b', '\u200b')
          

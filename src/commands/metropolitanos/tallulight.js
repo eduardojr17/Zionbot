@@ -52,7 +52,7 @@ module.exports = class extends Command {
 
             { name: 'Fotografe-me!', value: 'Aplica Mega Provocação a si mesmo. Bloqueia para si 50% do dano recebido. Requer recarga' },
 
-            { name: 'Para meus fãs! (Especial)', value: 'Causa danode luz muito pesado a todos os inimigos. Aplica Mega Atordoamento a todos os inimigos. Aplica queimadura a todos os inimigos' },
+            { name: 'Para meus fãs! (Especial)', value: 'Causa dano de luz muito pesado a todos os inimigos. Aplica Mega Atordoamento a todos os inimigos. Aplica queimadura a todos os inimigos' },
         )
 
         .setImage('https://static.wikia.nocookie.net/monsterlegends/images/5/5a/Tallulight_2.png/revision/latest/scale-to-width-down/250?cb=20211020144356')
