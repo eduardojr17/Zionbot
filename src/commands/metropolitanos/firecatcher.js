@@ -20,7 +20,7 @@ module.exports = class extends Command {
         .setAuthor('Metropolitano', 'https://cdn.discordapp.com/attachments/869282294639231008/869282336221565010/badge_metropolitan-small_v1.png')
         
         .setTitle('Firecatcher')
-        .setDescription('* Malairion treinou pessoalmente essa supervilã em chamas anos atrás. Ele sabia que ela era especial desde o início, e seu talento para o crime provou ser excelente desde o primeiro dia de trabalho. O problema era que a Firecatcher gostava de fazer as coisas do jeito dela e isso não é aceitável quando você trabalha para um gênio do mal. Seu contrato foi rescindido por desobediência e ela foi banida do Esconderijo dos Supervilões. Malairion nunca se esqueceu do talento de sua ex-aluna, mas colocou o orgulho em primeiro lugar, até o dia em que percebeu que seu projeto estava em perigo. Agora ele percebeu que precisa de todo o talento que puder ter perto dele e a Firecatcher está de volta ao seu time!.* \n ')
+        .setDescription('*Malairion treinou pessoalmente essa supervilã em chamas anos atrás. Ele sabia que ela era especial desde o início, e seu talento para o crime provou ser excelente desde o primeiro dia de trabalho. O problema era que a Firecatcher gostava de fazer as coisas do jeito dela e isso não é aceitável quando você trabalha para um gênio do mal. Seu contrato foi rescindido por desobediência e ela foi banida do Esconderijo dos Supervilões. Malairion nunca se esqueceu do talento de sua ex-aluna, mas colocou o orgulho em primeiro lugar, até o dia em que percebeu que seu projeto estava em perigo. Agora ele percebeu que precisa de todo o talento que puder ter perto dele e a Firecatcher está de volta ao seu time!.* \n ')
         
         //.addField('\u200b', '\u200b')
          
