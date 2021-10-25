@@ -20,14 +20,14 @@ module.exports = class extends Command {
         
         .setAuthor('Metropolitano', 'https://cdn.discordapp.com/attachments/869282294639231008/869282336221565010/badge_metropolitan-small_v1.png')
         
-        .setTitle('Q-3R1ON')
+        .setTitle('Vilina')
         .setDescription('*Vilina era a melhor amiga de Fampira, mas ela desapareceu quando foi para Monstown em uma noite de Halloween. Ninguém a viu depois, até hoje. No entanto, ela mudou um pouco. Não há dúvida de que ela é de Monstelvania, mas seus poderes e objetivos de vida são completamente diferentes. Ela é a supervilã de Malairion agora!* \n ')
         
         //.addField('\u200b', '\u200b')
          
         .addFields(
             { name: '\u200B', value: '\u200B' },
-            { name: 'Caracteríticas', value: 'R0: Imune a atordoar \n R1:Artefato \n R3: Provocação', inline: true},
+            { name: 'Caracteríticas', value: 'R0: Demônio \n R1:Imune a Possessão \n R3: Regeneração de Vida(ED)', inline: true},
             { name: 'Relíquias', value: '- \n -', inline: true},
             { name: 'Estatísticas(R5)', value: 'Poder: - \n Vida: -\n Velocidade: -', inline: true}
         )
