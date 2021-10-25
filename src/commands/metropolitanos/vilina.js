@@ -51,7 +51,7 @@ module.exports = class extends Command {
 
         )
 
-        .setImage('https://static.wikia.nocookie.net/monsterlegends/images/c/c5/Q-3R1ON_2.png/revision/latest/scale-to-width-down/250?cb=20210824153013')
+        .setImage('https://cdn.discordapp.com/attachments/610845535296946186/902163191931502642/MlFrancophone1_Capture0_2021-10-25_13-53-38.png')
         .setTimestamp()
         .setFooter('Procriação');
         
