@@ -27,7 +27,7 @@ module.exports = class extends Command {
          
         .addFields(
             { name: '\u200B', value: '\u200B' },
-            { name: 'Caracteríticas', value: 'R0: Imune a atordoamento \n R1:Reforçado (20%) \n R3: Efeito Dispersado - Aplica Vazamento de Resistência a todos os inimigos no início da batalha', inline: true},
+            { name: 'Caracteríticas', value: 'R0: Imune a atordoamento \n R1:Reforçado (20%) \n R3: Vazamento de Resistência(ED)', inline: true},
             { name: 'Relíquias', value: 'Bandeira \n Máscara', inline: true},
             { name: 'Estatísticas(R5)', value: 'Poder: 22.928 \n Vida: 312.590\n Velocidade: 12.976', inline: true}
         )

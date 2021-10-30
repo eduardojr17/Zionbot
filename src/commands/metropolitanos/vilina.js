@@ -28,8 +28,8 @@ module.exports = class extends Command {
         .addFields(
             { name: '\u200B', value: '\u200B' },
             { name: 'Caracteríticas', value: 'R0: Demônio \n R1:Imune a Possessão \n R3: Regeneração de Vida(ED)', inline: true},
-            { name: 'Relíquias', value: '- \n -', inline: true},
-            { name: 'Estatísticas(R5)', value: 'Poder: - \n Vida: -\n Velocidade: -', inline: true}
+            { name: 'Relíquias', value: 'Máscara \n Bandeira', inline: true},
+            { name: 'Estatísticas(R5)', value: 'Poder: 22.960 \n Vida: 312.589\n Velocidade: 12.928', inline: true}
         )
 
         .addField('\u200b', '\u200b')
@@ -43,15 +43,19 @@ module.exports = class extends Command {
             { name: 'Sabe, você gosta de mim', value: 'Causa dano de escuridão moderado a um inimigo. Aplica Possessão a um inimigo. Requer recarga' },
 
             { name: 'Quer ser meu fantoche', value: 'Ressuscita um inimigo com 1% de Vida. Aplica Possessão a um inimigo. Requer recarga' },
+
             { name: 'Quer sair?', value: 'Ressuscita um aliado com 50% de vida. Aplica regeneração de vida a um aliado. Requer recarga' },
+
             { name: 'Máscara assustadora', value: 'Causa dano de escuridão baixo a todos os inimigos. Aplica cegueira a todos os inimigos. Requer recarga' },
             { name: 'Vamos ser amigos?', value: 'Ressuscita um aliado com 1% de vida. Aplica dobro de dano  a um aliado. Requer recarga' },
+
             { name: 'Eu Sei o Que Você Gosta', value: 'Causa baixo dano de escuridão a todos os inimigos. Aplica Possessão a todos os inimigos. Requer recarga' },
+            
             { name: 'Amor nas rochas (Especial)', value: 'Remove os efeitos positivos de todos os inimigos. Causa dano de escuridão moderado a todos os inimigos. Aplica morte por contagem regressiva de 3 voltas e atordoamento a todos os inimigos.' },
 
         )
 
-        .setImage('https://cdn.discordapp.com/attachments/610845535296946186/902163191931502642/MlFrancophone1_Capture0_2021-10-25_13-53-38.png')
+        .setImage('https://static.wikia.nocookie.net/monsterlegends/images/6/64/Vilina_2.png/revision/latest/scale-to-width-down/250?cb=20211025161013')
         .setTimestamp()
         .setFooter('Procriação');
         
