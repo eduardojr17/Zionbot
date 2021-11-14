@@ -7,8 +7,8 @@ const {MessageEmbed}  = require('discord.js')
 module.exports = class extends Command {
     constructor(client) {
         super(client, {
-            name: 'zizabeth', // nome do comando slash
-            description: 'Infomações sobre Izabeth', // Descrição do comando slash
+            name: 'zlordinheritor', // nome do comando slash
+            description: 'Infomações sobre Lord Inheritor', // Descrição do comando slash
         })
     }
 
