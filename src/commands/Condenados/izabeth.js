@@ -27,7 +27,7 @@ module.exports = class extends Command {
          
         .addFields(
             { name: '\u200B', value: '\u200B' },
-            { name: 'Caracteríticas', value: 'R0: Imune a Possessão \n R1:Imune a Pesadelos \n R3: ED: Anti Aleatório (Aliados)', inline: true},
+            { name: 'Caracteríticas', value: 'R0: Imune a Possessão \n R1:Imune a Pesadelos \n R3: Anti Aleatório (ED-Aliados)', inline: true},
             { name: 'Relíquias', value: 'Máscara \n Bastão', inline: true},
             { name: 'Estatísticas(R5)', value: 'Poder: 23968 \n Vida: 343712\n Velocidade: 13984', inline: true}
         )
@@ -52,7 +52,7 @@ module.exports = class extends Command {
 
             { name: 'Ódio de Athatriel', value: 'Aplica Incentivo de Dano a um aliado.' },
 
-            { name: 'Pacto com Astaroth (Especial)', value: 'Causa grande dano de magia a todos os inimigos. Aplica Choque, Maldição e Atordoamento a todos os inimigos.' },
+            { name: 'Pacto com Astaroth (Especial)', value: 'Causa dano pesado de magia a todos os inimigos. Aplica Choque, Maldição e Atordoamento a todos os inimigos.' },
         )
 
         .setImage('https://static.wikia.nocookie.net/monsterlegends/images/8/82/Izabeth_2.png/revision/latest?cb=20211112091254')
