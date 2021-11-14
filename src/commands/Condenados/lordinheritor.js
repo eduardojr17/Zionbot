@@ -7,8 +7,8 @@ const {MessageEmbed}  = require('discord.js')
 module.exports = class extends Command {
     constructor(client) {
         super(client, {
-            name: 'zizabeth', // nome do comando slash
-            description: 'Infomações sobre Izabeth', // Descrição do comando slash
+            name: 'zlordinheritor', // nome do comando slash
+            description: 'Infomações sobre  Lord Inheritor', // Descrição do comando slash
         })
     }
 
@@ -44,7 +44,7 @@ module.exports = class extends Command {
 
             { name: 'Garra do inferno', value: 'Causa dano moderado de escuridão a um inimigo. Aplica Fogo Infernal a um inimigo. Requer recarga' },
 
-            { name: 'Arrebatamento de Fogo', value: 'Aplica possessão a um inimigo. Requer recarga' },
+            { name: 'Arrebatamento de Fogo', value: 'Aplica possessão a um inimigo. Requer recarga'},
 
             { name: 'Marcha de fogo', value: 'Causa dano moderado de fogo a todos os inimigos. Aplica Combustão a todos os inimigos. Requer recarga' },
 
