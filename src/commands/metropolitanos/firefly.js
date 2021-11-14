@@ -20,7 +20,7 @@ module.exports = class extends Command {
         
         .setAuthor('Metropolitano', 'https://cdn.discordapp.com/attachments/869282294639231008/869282336221565010/badge_metropolitan-small_v1.png')
         
-        .setTitle('Wormanoid')
+        .setTitle('Firefly')
         .setDescription('*Cuidado! Se você ver um inseto vermelho brilhante se oferecendo para guiá-lo pelas áreas escuras da Floresta Cardinal, corra. Firefly é mãe de cinco filhos, nenhum dos quais sabe caçar, então ela tem que fazer todo o trabalho. Ela atrai vítimas sem noção, oferecendo-se para levá-los para o outro lado da floresta, atordoa-os e rouba sua comida.* \n ')
         
         //.addField('\u200b', '\u200b')
