@@ -27,7 +27,7 @@ module.exports = class extends Command {
          
         .addFields(
             { name: '\u200B', value: '\u200B' },
-            { name: 'Caracteríticas', value: 'R0: Demônio \n R1: Super Demônio \n R3: Imune a Torturas \n R4: Regeneração de Vida \n R5: Ignição (ED)', inline: true},
+            { name: 'Caracteríticas', value: 'R0: Demônio \n R1: Super Demônio \n R3: Imune a Torturas \n R4: Regeneração de Vida (ED) \n R5: Ignição (ED)', inline: true},
 
             { name: 'Relíquias', value: 'Armadura \n Espada', inline: true},
 
