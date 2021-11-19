@@ -57,8 +57,7 @@ module.exports = class extends Command {
             { name: 'Handquake', value: 'Causa dano de terra pesado a todos os inimigos. Aplica Mega Atordoar a todos os inimigos. Desativa as características de todos os inimigos.' },
 
         )
-
-        .setImage('https://static.wikia.nocookie.net/monsterlegends/images/8/8b/Goathram_2.png/revision/latest/scale-to-width-down/250?cb=20211116142325')
+        .setImage('https://static.wikia.nocookie.net/monsterlegends/images/7/7b/Killarok_2.png/revision/latest?cb=20211116143723')
         .setTimestamp()
         .setFooter('Labirinto');
         
