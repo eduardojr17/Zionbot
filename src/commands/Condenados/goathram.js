@@ -38,21 +38,21 @@ module.exports = class extends Command {
         .addFields(
             { name: 'ATAQUES', value: '\u200B'},
 
-            { name: 'Ameaça de Queratina', value: 'Causa dano de Magia moderado a um inimigo. Aplica Atordoar a um inimigo. Remove todos os efeitos negativos de si mesmo. Requer recarga.' },
+            { name: 'Ameaça Queratinosa', value: 'Causa dano de Magia baixo a um inimigo.' },
 
-            { name: 'Goated!', value: 'Aplica um Escudo de vida de 33% a todos os aliados. Requer recarga.' },
+            { name: 'Magia dos Ossos', value: 'Causa dano de Magia baixo a todos os inimigos.' },
 
-            { name: 'You Goat It!', value: 'Causa dano de Magia moderado a todos os inimigos. Aplica Atordoar a todos os inimigos. Requer recarga.' },
+            { name: 'Duas Perspectivas', value: 'Causa dano de Magia moderado a um inimigo. Aplica Atordoar a um inimigo. Remove todos os efeitos negativos de si mesmo. Requer recarga.' },
 
-            { name: 'Esforço Compartilhado', value: 'Causa dano de Magia baixo a todos os inimigos.' },
+            { name: 'Instinto Feral', value: 'Aplica um Escudo de vida de 33% a todos os aliados. Requer recarga.' },
 
-            { name: 'Passeio do Homem-Besta', value: 'Causa dano de Magia baixo a um inimigo.' },
+            { name: 'Cabra da Peste!', value: 'Causa dano de Magia moderado a todos os inimigos. Aplica Atordoar a todos os inimigos. Requer recarga.' },
 
-            { name: 'Magia de Osso', value: 'Causa dano de Magia moderado a todos os inimigos. Aplica Bloqueio de Escudo a todos os inimigos. Requer recarga.' },
+            { name: 'Tá de bode?', value: 'Causa dano de Magia moderado a todos os inimigos. Aplica Bloqueio de Escudo a todos os inimigos. Requer recarga.' },
 
-            { name: 'Duas Perspectivas', value: 'Aplica 50% de Escudo de Vida a um aliado e a si mesmo. Requer recarga.' },
+            { name: 'Esforço Conjunto', value: 'Aplica 50% de Escudo de Vida a um aliado e a si mesmo. Requer recarga.' },
 
-            { name: 'Instinto Feral', value: 'Causa dano de Magia moderado a um inimigo. Aplica Reflexo de Habilidade a si mesmo. Requer recarga.' },
+            { name: 'Passeio da Fera', value: 'Causa dano de Magia moderado a um inimigo. Aplica Reflexo de Habilidade a si mesmo. Requer recarga.' },
 
             { name: 'História de Um Carneiro Mágico (Especial)', value: 'Causa dano de Magia muito pesado a todos os inimigos. Ativa todas as recargas em todos os inimigos. Aplica Atordoar a todos os inimigos.' },
         )
