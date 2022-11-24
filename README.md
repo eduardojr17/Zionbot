@@ -4,9 +4,7 @@ Bot para o Discord utilizando a versão 13 do wrapper discord.js
 
 ## :rocket: O Projeto
 
-* Bot para o Discord utiliza Handler de slash commands para mostrar informações de personagens de um jogo mobile
-
-<br>
+* O bot para o Discord utiliza Handler de slash commands para mostrar informações de personagens de um jogo mobile
 
 ## :camera_flash: Links
 
